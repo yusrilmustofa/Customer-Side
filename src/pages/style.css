@@ -1,0 +1,68 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(BAA.jpg) no-repeat;
+    background-size: cover;
+}
+.box{
+    width: 400px;
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+}
+.box h1{
+color:#382ecc;
+text-transform: uppercase;
+font-weight: 1000;
+font-style: italic;
+float: center;
+border-bottom: 3px solid;
+border-color: #382ecc;
+}
+.box h5{
+    color: white;
+    float: center;
+    text-shadow: lawngreen;
+    border-bottom-left-radius: 2px;
+}
+.box input[type = "text"],.box input[type ="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin:  20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type ="password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
+.box input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin:  20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.10s;
+    cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+    background: #2ecc71;
+}
